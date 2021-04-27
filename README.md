@@ -189,8 +189,14 @@ Hello, HTTPs WORLD
 
 역자가 사용한 소스는 아래의 링크에서 확인 가능합니다.
 
-[깃헛저장소 링크가기] ()
+[깃헛저장소 링크가기](https://github.com/Kyungminkim31/spring-boog-https-enabled)
 
-> *주의: application.properties 내의 인증서 패스워드와 앨리어스 등은 각자 맞게 커스텀 해야 합니다.*
+> **주의사항**
+>
+> application.properties 내의 인증서 패스워드와 앨리어스 등은 각자 맞게 커스텀 해야 합니다.*<br/>
+>
+> *또한 본문내용중 셀프사인드 인증서를 직접 생성하여 예제속의 main/resource/keystore/gaval.p12 와 교체하시길 바랍니다.* <br/>
+>
+> *셀프사인드 인증서의 경우 운영에서는 사용하실 수 없고 인증된기관(Certification Authority) 로 부터 정식 인증된 인증서를 사용하시길 바랍니다.* 
 
--진짜 끝.
+-끝.
